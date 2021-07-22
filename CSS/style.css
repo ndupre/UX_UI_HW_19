@@ -9,6 +9,10 @@ body{
 
 /* Headings and pharagraph styles */
 
+.no-scroll {
+    overflow: hidden;
+}
+
 h1{ 
     font-family: "Quicksand";
     font-size: 54px;
@@ -668,4 +672,47 @@ a:hover {
     footer p{
         text-align: center;
     }
+}
+
+/* ------------------------------------------
+------------PROJECT PAGE STYLES -------------
+-------------------------------------------*/
+
+/* start hero */
+.project-hero .hero-text{
+    text-align: center;
+    padding: 40px;
+    margin-top: 20px;
+    display: block;
+}
+
+.project-hero ul{
+    display: inline-block;
+}
+
+.project-hero ul li .breadcrumbs{
+    display: inline;
+}
+
+.project-hero ul li .breadcrumbs a {
+    font-family: "Open Sans";
+    font-size: 14px;
+    color:#0D87DB;
+}
+
+.project-hero ul li .breadcrumbs a:hover{
+    opacity: .6;
+}
+
+.project-hero ul li .breadcrumbs a:active{
+    color:#121212;
+    text-decoration: none;
+}
+
+
+/* end hero */
+
+/* start research */
+section .project-research{
+
 }
