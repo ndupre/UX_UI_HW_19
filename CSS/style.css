@@ -65,10 +65,10 @@ h4{
 
 p{
     font-family:"Open Sans";
-    font-size: 18px;
+    font-size: 16px;
     font-weight:300;
     color: #121212; 
-    line-height: 1.4;  
+    line-height: 1.6;  
 }
 
 @media screen and (max-width: 860px) {
@@ -79,7 +79,7 @@ p{
 
 .category{
     font-size: 14px;
-    color: #0D87DB;
+    color: #202020;
 }
 
 @media screen and (max-width: 860px) {
@@ -288,31 +288,9 @@ p{
     margin-top: 20px;
 }
 
-@media screen and (max-width: 860px) {
-    .hero{
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-}
-
-@media screen and (max-width: 860px) {
-    .hero .hero-text h1{
-        font-size: 42px;
-        line-height: 1.2em;
-        text-align: center;
-    }
-}
-
 .hero .hero-image{
     flex-basis: 33%;
     align-self: center;
-}
-
-@media screen and (max-width: 860px) {
-    .hero .hero-image{
-        order: 1;
-        flex-basis: 60%;
-    }
 }
 
 .hero-image img{
@@ -323,15 +301,6 @@ p{
 .hero .hero-text{
     flex-basis: 50%;
     align-self: center;
-}
-
-@media screen and (max-width: 860px) {
-    .hero .hero-text{
-        order: 0;
-        flex-basis: 80%;
-        text-align: center;
-        margin-bottom: 20px;
-    }
 }
 
 .hero-text p.category{ 
@@ -346,13 +315,6 @@ p{
     display:inline;
     font-weight: 500;
 }
-
-@media screen and (max-width: 860px) {
-    .hero-text p.category span{
-        display: block;
-    }
-}
-
 .hero-text p.category a {
     color:#0D87DB;
     background-repeat: no-repeat;
@@ -384,6 +346,36 @@ p{
 
 .hero-text p.category a.social-mail{
     background-image:url(../images/icon-mail.svg);
+}
+
+
+@media screen and (max-width: 860px) {
+    .hero{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .hero .hero-text h1{
+        font-size: 42px;
+        line-height: 1.2em;
+        text-align: center;
+    }
+
+    .hero .hero-image{
+        order: 1;
+        flex-basis: 60%;
+    }
+
+    .hero .hero-text{
+        order: 0;
+        flex-basis: 80%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .hero-text p.category span{
+        display: block;
+    }
 }
 
 /* Skills Section */
@@ -526,7 +518,7 @@ p{
     transition: color 0.3s ease;
     background-image: url(../images/arrow-right-red.svg);
  }
-
+ 
 .project:nth-of-type(odd){
 }
 
@@ -679,40 +671,75 @@ a:hover {
 -------------------------------------------*/
 
 /* start hero */
-.project-hero .hero-text{
-    text-align: center;
-    padding: 40px;
-    margin-top: 20px;
-    display: block;
+
+.breadcrumbs{
+    padding: 30px;
+    margin-left:24px;
+}
+ul.pagination{
+    padding: 5px 15px;
+    background-color:#fcf6f4;
+    border-radius: 30px;
+    width: fit-content;
 }
 
-.project-hero ul{
-    display: inline-block;
-}
-
-.project-hero ul li .breadcrumbs{
+ul.pagination li{
+    /* margin:10px; */
     display: inline;
-}
-
-.project-hero ul li .breadcrumbs a {
+    align-self: left;
     font-family: "Open Sans";
-    font-size: 14px;
-    color:#0D87DB;
-}
-
-.project-hero ul li .breadcrumbs a:hover{
-    opacity: .6;
-}
-
-.project-hero ul li .breadcrumbs a:active{
+    font-size: 12px;
     color:#121212;
+}
+
+ul.pagination li+li:before {
+    padding: 8px;
+    color: #121212;
+    content: "/\00a0";
+}
+
+ul.pagination li a{
+    color: #0D87DB;
     text-decoration: none;
+}
+
+ul.pagination li a:hover{
+    color:#0865A5;
+    transition: color 0.3s ease;
 }
 
 
 /* end hero */
+.project-title{
+    align-self: flex-start;
+    text-align:center;
+}
+.project-overview{
+display: flex;
+padding: 50px 100px;
+align-items: center;
+justify-content: space-between;
+margin-bottom: 50px;
+}
+   
+.project-overview .description{
+    margin-right: 50px;
+    width: 60%;
+}
 
-/* start research */
-section .project-research{
+.rol-tools{
+    border-left: 3px solid #0D87DB;
+    padding-left: 20px;
+    width: 30%;
+    line-height: 2em;
+    height: fit-content;
+}
+.rol-tools p.category{
+    line-height: 2em;
+    font-size:12px;
+}
 
+.rol-tools p.blue{
+    color: #0865A5;
+    font-weight: 500;
 }
