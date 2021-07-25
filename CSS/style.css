@@ -401,10 +401,10 @@ p{
 }
 
 .skill{
-    flex-basis: calc( (100%/4) - 50px ); 
+    flex-basis: calc( (100%/3) - 50px ); 
     background-color: white;
-    padding: 20px;
-    border-top: 3px solid #0D87DB;
+    padding: 25px;
+    border-top: 3px solid #F05B5C;
     border-top-left-radius: 5%;
     border-bottom-right-radius: 5%;
 }
@@ -673,8 +673,8 @@ a:hover {
 /* start hero */
 
 .breadcrumbs{
-    padding: 30px;
-    margin-left:24px;
+    padding-left: 40px;
+    /* margin-left:24px; */
 }
 ul.pagination{
     padding: 5px 15px;
@@ -708,38 +708,72 @@ ul.pagination li a:hover{
     transition: color 0.3s ease;
 }
 
+.project-hero{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.hero .project-img{
+    flex-basis: 60%;
+    /* align-self: flex-end; */
+    align-content: right;
+}
+
+.project-img img{
+    width: 100%;
+    height: auto;
+}
+
+.hero .project-title{
+    flex-basis: 40%;
+    /* align-self: center; */
+    text-align:left;
+    padding-right: 50px;
+}
+
 
 /* end hero */
-.project-title{
-    align-self: flex-start;
-    text-align:center;
-}
-.project-overview{
-display: flex;
-padding: 50px 100px;
-align-items: center;
-justify-content: space-between;
-margin-bottom: 50px;
-}
-   
-.project-overview .description{
-    margin-right: 50px;
-    width: 60%;
-}
+/* start nav in-page */
 
-.rol-tools{
-    border-left: 3px solid #0D87DB;
-    padding-left: 20px;
+.in-page ul{
+    list-style: none;
+    font-family: "Quicksand";
+    font-weight: 400;
+}
+@media (min-height: 300px) {
+    nav.in-page ul {
+      position: sticky;
+      top: 0;
+    }
+  }
+/* end nav in-page */
+
+/* overview */
+/* .overview{
+    display:flex;
+    align-content:space-between;
+}
+.overview .roleTools{
+    flex-basis: calc( (100%/3) - 50px ); 
+    padding: 25px;
+    padding-left: 40px;
     width: 30%;
     line-height: 2em;
     height: fit-content;
-}
-.rol-tools p.category{
-    line-height: 2em;
-    font-size:12px;
+   
+} */
+
+.roleTools{
+    margin-left:140px;
+    margin-top: 70px;
+    border-top: solid 4px #F05B5C;
+    width: fit-content;
+    
 }
 
-.rol-tools p.blue{
-    color: #0865A5;
-    font-weight: 500;
+.roleTools p.category{
+    line-height: 2em;
+    font-size:11px;
+    
 }

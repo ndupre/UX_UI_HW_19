@@ -1,0 +1,15 @@
+<svg id="Component_7_1" data-name="Component 7 – 1" xmlns="http://www.w3.org/2000/svg" width="84" height="84" viewBox="0 0 84 84">
+  <circle id="Ellipse_4" data-name="Ellipse 4" cx="42" cy="42" r="42" fill="#ef3c3d"/>
+  <g id="Group_10" data-name="Group 10" transform="translate(18 18.042)">
+    <path id="Path_4" data-name="Path 4" d="M14,34H8a1,1,0,0,0-1,1v6a1,1,0,0,0,1,1h6a1,1,0,0,0,1-1V35A1,1,0,0,0,14,34Zm-1,6H9V36h4Z" fill="#fff"/>
+    <path id="Path_5" data-name="Path 5" d="M14,23H8a1,1,0,0,0-1,1v6a1,1,0,0,0,1,1h6a1,1,0,0,0,1-1V24A1,1,0,0,0,14,23Zm-1,6H9V25h4Z" fill="#fff"/>
+    <path id="Path_6" data-name="Path 6" d="M19,19H32a1,1,0,0,0,0-2H19a1,1,0,0,0,0,2Z" fill="#fff"/>
+    <path id="Path_7" data-name="Path 7" d="M19,15H32a1,1,0,0,0,0-2H19a1,1,0,0,0,0,2Z" fill="#fff"/>
+    <path id="Path_8" data-name="Path 8" d="M27,28H19a1,1,0,0,0,0,2h8a1,1,0,0,0,0-2Z" fill="#fff"/>
+    <path id="Path_9" data-name="Path 9" d="M19,26h8a1,1,0,0,0,0-2H19a1,1,0,0,0,0,2Z" fill="#fff"/>
+    <path id="Path_10" data-name="Path 10" d="M24,39H19a1,1,0,0,0,0,2h5a1,1,0,0,0,0-2Z" fill="#fff"/>
+    <path id="Path_11" data-name="Path 11" d="M24,35H19a1,1,0,0,0,0,2h5a1,1,0,0,0,0-2Z" fill="#fff"/>
+    <path id="Path_12" data-name="Path 12" d="M13.29,13.29,10,16.59l-1.29-1.3a1,1,0,0,0-1.42,1.42h0c3.29,3.28,2,3.4,7.42-2a1,1,0,0,0-1.42-1.42Z" fill="#fff"/>
+    <path id="Path_13" data-name="Path 13" d="M44.25,13.14a3.51,3.51,0,0,0-4.78,1.28L38,17c0-9.71.08-9.24-.24-9.62C31.17-.34,31.73.26,31.45.12,30.94-.15,31,0,3,0A1,1,0,0,0,2,1V47a1,1,0,0,0,1,1H37a1,1,0,0,0,1-1V31c2.86-4.95,4.75-8.22,7.53-13a3.5,3.5,0,0,0-1.186-4.805ZM32,3.7,34.83,7H32ZM36,46H4V2H30V8a1,1,0,0,0,1,1h5V20.43L28.22,33.91c-.17.29-.1,0-.47,6a1,1,0,0,0,.938,1.058l.062,0c.43,0,.24,0,5.22-3.24.26-.18.12,0,2-3.32ZM30,35.24a3.4,3.4,0,0,1,2.18,1.26l-2.35,1.55Zm3.4-.38a5.439,5.439,0,0,0-2.6-1.5l8.11-14,2.6,1.5ZM43.8,16.92l-1.25,2.17L40,17.59l1.25-2.17a1.5,1.5,0,0,1,2.55,1.5Z" fill="#fff"/>
+  </g>
+</svg>
