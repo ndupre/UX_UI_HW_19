@@ -730,12 +730,37 @@ ul.pagination li a:hover{
     /* align-self: center; */
     text-align:left;
     padding-right: 50px;
+    margin-right: 10px;
 }
 
+.roleTools{
+    padding:0px 15px;
+    margin: 30px 30px 0px 15px;
+    border-left: solid 1px #0D87DB;
+    /* border-right: solid 1px #0D87DB; */
+    width: fit-content;
+    
+}
+
+.roleTools span{
+    
+}
+.roleTools p.category-blue{
+    color:#0D87DB;
+    font-size:12px;
+    margin: 0px;
+}
+.roleTools p.category{
+    line-height: 18px;
+    font-size:12px;
+    flex-direction: row;
+    margin: 0px;
+    
+}
 
 /* end hero */
-/* start nav in-page */
 
+/* start nav in-page */
 .in-page ul{
     list-style: none;
     font-family: "Quicksand";
@@ -749,31 +774,49 @@ ul.pagination li a:hover{
   }
 /* end nav in-page */
 
-/* overview */
-/* .overview{
+/* start research section */
+
+#project-research{
+    display:inline-block;
+}
+
+.section-content{
     display:flex;
-    align-content:space-between;
+    align-content: space-around;
+    margin: 20px;
 }
-.overview .roleTools{
-    flex-basis: calc( (100%/3) - 50px ); 
-    padding: 25px;
-    padding-left: 40px;
-    width: 30%;
-    line-height: 2em;
-    height: fit-content;
-   
-} */
 
-.roleTools{
-    margin-left:140px;
-    margin-top: 70px;
-    border-top: solid 4px #F05B5C;
-    width: fit-content;
+h2.quote-txt{
+    font-family: "Open Sans";
+    font-size: 46px;
+    font-weight:200;
+    font-style: italic;
+    line-height: 1.31em;
+    color:#383838;
+    margin-left:80px;
     
 }
 
-.roleTools p.category{
-    line-height: 2em;
-    font-size:11px;
+.twothird-txt{
+    margin-left: 40px;
+}
+
+.twothird-txt .line{
+    margin-bottom: 0%;
+    background-color:#F05B5C;
+    border-radius: 1em;
+    height: 0.5em;
+    width: 18.5em;
+}
+.quote img{
+    margin-bottom: -10em;
+    width: 90px;
+
     
 }
+
+
+
+
+
+
