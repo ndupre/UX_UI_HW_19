@@ -65,10 +65,10 @@ h4{
 
 p{
     font-family:"Open Sans";
-    font-size: 16px;
+    font-size: 18px;
     font-weight:300;
     color: #121212; 
-    line-height: 1.6;  
+    line-height: 1.7;  
 }
 
 @media screen and (max-width: 860px) {
@@ -737,24 +737,22 @@ ul.pagination li a:hover{
     padding:0px 15px;
     margin: 30px 30px 0px 15px;
     border-left: solid 1px #0D87DB;
-    /* border-right: solid 1px #0D87DB; */
+    border-right: solid 1px #0D87DB;
     width: fit-content;
     
 }
 
 .roleTools span{
-    
 }
 .roleTools p.category-blue{
     color:#0D87DB;
     font-size:12px;
-    margin: 0px;
+    line-height: 0px;
 }
 .roleTools p.category{
     line-height: 18px;
     font-size:12px;
     flex-direction: row;
-    margin: 0px;
     
 }
 
@@ -776,45 +774,129 @@ ul.pagination li a:hover{
 
 /* start research section */
 
-#project-research{
-    display:inline-block;
+.project-empathise{
+    display: block;
+    background-color: #fcf6f4;
+    background-blend-mode: overlay;
+    padding: 50px;
 }
 
-.section-content{
-    display:flex;
-    align-content: space-around;
-    margin: 20px;
+.section-intro{
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-intro figure.index-method{
+    align-self: center;
+}
+.section-intro h3{
+    align-self: center;
+    margin:0px;
+}
+
+.intro-txt{
+    align-items: center;
+    margin: 0px 70px 0px 70px;
+}
+.intro-txt h5{
+    font-family: "Quicksand";
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 2em;
+    text-align: center;
+
+}
+
+.division{
+    align-self: center;
+    display: inline-flex;
+    margin: 0px 70px 50px 70px;
+    align-items: center ;
+}
+
+.division .dot{
+    background-color: #F05B5C;
+    border-radius: 1em;
+    height: 1em;
+    width: 1em;
+    margin-right: 10px;
+}
+
+.project-empathise .user-research{
+    margin: 25px 0px;
+}
+
+.row{
+    display: flex;
+    align-content: center;
+    margin:50px; 
+}
+
+.quote{
+    margin-right: 50px;
+    width: 60%;
+    flex-direction: row;
+}
+
+
+.quote img{
+    width: 80px;
 }
 
 h2.quote-txt{
     font-family: "Open Sans";
     font-size: 46px;
-    font-weight:200;
+    font-weight: 200;
     font-style: italic;
     line-height: 1.31em;
-    color:#383838;
-    margin-left:80px;
-    
+    color: #383838;
+    margin-left: 35px;  
 }
 
 .twothird-txt{
-    margin-left: 40px;
+margin-left: 40px;
+width: 40%;
 }
 
-.twothird-txt .line{
-    margin-bottom: 0%;
-    background-color:#F05B5C;
-    border-radius: 1em;
-    height: 0.5em;
-    width: 18.5em;
+.twothird-txt h4{
+    margin-top:30px;
+    margin-bottom: 0px;
 }
-.quote img{
-    margin-bottom: -10em;
-    width: 90px;
 
+.twothird-txt ul{
+    font-size: 14px;
+    font-family: "Open Sans";
+    font-weight: 200;
+    line-height: 1.8em;
+}
+
+
+.col4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+
+
+.col4 .grid{
+    width: Calc ( (100%/4) - 100px );
+    width:100%;
+    height:auto;
+    background-color: #FFFFFF;
+    /* background-repeat: no-repeat;
+    position: relative; */
+
+    
     
 }
 
+.project-define{
+    display: block;
+    padding: 50px;
+}
 
 
 
