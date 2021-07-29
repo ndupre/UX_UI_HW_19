@@ -782,7 +782,7 @@ ul.pagination li a:hover{
 
 .spec .role{
     flex-basis: 26%;
-    border-top: #F05B5C solid 1px; 
+    border-top: #F05B5C solid 2px; 
     padding-top:8px;
     border-width: fit-content;
 
@@ -801,7 +801,7 @@ ul.pagination li a:hover{
 
 /* start nav in-page */
 .in-page{
-    display:none;
+    display:block;
 }
 .in-page ul{
     list-style: none;
