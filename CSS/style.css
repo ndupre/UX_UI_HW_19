@@ -68,7 +68,7 @@ p{
     font-size: 18px;
     font-weight:300;
     color: #121212; 
-    line-height: 1.7;  
+    line-height: 1.8em;  
 }
 
 @media screen and (max-width: 860px) {
@@ -304,11 +304,9 @@ p{
 }
 
 .hero-text p.category{ 
-    /* border-top: #F05B5C 1px solid; */
-    padding-top: 12px;
+    padding-top: 14px;
     color:#121212!important;
     line-height: 50px;
-    /* margin-top: 20px; */
 }
 
 .hero-text p.category span{
@@ -673,7 +671,8 @@ a:hover {
 /* start hero */
 
 .breadcrumbs{
-    padding-left: 40px;
+    padding-top: 20px;
+    padding-left: 50px;
     /* margin-left:24px; */
 }
 ul.pagination{
@@ -709,56 +708,101 @@ ul.pagination li a:hover{
 }
 
 .project-hero{
-    display: flex;
-    justify-content: space-between;
-    padding: 40px;
+    display: block;
+    padding: 10px 50px 30px 50px;
 }
 
+.project-hero .cover{
+    display:flex;
+    align-content:center; 
+    padding: 30px 0px 0px 0px;
+
+}
 .hero .project-img{
     flex-basis: 60%;
-    /* align-self: flex-end; */
-    align-content: right;
+    flex-direction:row ;
+    align-self: right;
 }
 
 .project-img img{
     width: 100%;
     height: auto;
+    margin-left: 25px;
+
 }
 
 .hero .project-title{
     flex-basis: 40%;
     /* align-self: center; */
     text-align:left;
-    padding-right: 50px;
-    margin-right: 10px;
+    padding-right: 30px;
+    align-self: flex-start;
 }
 
-.roleTools{
-    padding:0px 15px;
-    margin: 30px 30px 0px 15px;
-    border-left: solid 1px #0D87DB;
-    border-right: solid 1px #0D87DB;
-    width: fit-content;
+.project-title p{
+    /* padding-top: 30px; */
+    flex-basis: 40%;
+    align-self: center;
+}
+
+.cover .line-vertical{
+    height: 11em;
+    width: 0.6em;
+    background-color: #F05B5C;
+    border-radius: 1em;
+    margin:0px 15px 0px 540px;
+    align-self: center;
+}
+
+.cover .roleTools{
+    padding-left:10px;
+    text-align: left;
+    align-self: center;
+    margin-right:180px;
     
 }
 
-.roleTools span{
-}
-.roleTools p.category-blue{
-    color:#0D87DB;
-    font-size:12px;
-    line-height: 0px;
-}
 .roleTools p.category{
-    line-height: 18px;
-    font-size:12px;
-    flex-direction: row;
+    line-height: 16px;
+    font-size:12px; 
+    margin:0px 0px 0px 0px;
     
+}
+
+
+.cover .spec{
+    flex-basis: 60%;
+    display: flex;
+    /* align-self: right;
+    padding: 25px; */
+    justify-content:space-around;
+    margin-top: 10px;
+    margin-left: 55px;
+}
+
+.spec .role{
+    flex-basis: 26%;
+    border-top: #F05B5C solid 1px; 
+    padding-top:8px;
+    border-width: fit-content;
+
+}
+
+.spec .role p.category{
+    margin:0px;
+    font-size: 12px;
+}
+
+.cover .empty{
+    flex-basis: 40%;   
 }
 
 /* end hero */
 
 /* start nav in-page */
+.in-page{
+    display:none;
+}
 .in-page ul{
     list-style: none;
     font-family: "Quicksand";
@@ -779,6 +823,7 @@ ul.pagination li a:hover{
     background-color: #fcf6f4;
     background-blend-mode: overlay;
     padding: 50px;
+    border-radius: 30px;
 }
 
 .section-intro{
@@ -799,11 +844,7 @@ ul.pagination li a:hover{
     align-items: center;
     margin: 0px 70px 0px 70px;
 }
-.intro-txt h5{
-    font-family: "Quicksand";
-    font-size: 18px;
-    font-weight: 100;
-    line-height: 2em;
+.intro-txt p{
     text-align: center;
 
 }
@@ -870,28 +911,8 @@ width: 40%;
     font-weight: 200;
     line-height: 1.8em;
 }
+  
 
-
-.col4{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 40px;
-}
-
-
-
-.col4 .grid{
-    width: Calc ( (100%/4) - 100px );
-    width:100%;
-    height:auto;
-    background-color: #FFFFFF;
-    /* background-repeat: no-repeat;
-    position: relative; */
-
-    
-    
-}
 
 .project-define{
     display: block;
