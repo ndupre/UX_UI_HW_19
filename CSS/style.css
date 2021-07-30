@@ -745,28 +745,18 @@ ul.pagination li a:hover{
     align-self: center;
 }
 
-.cover .line-vertical{
-    height: 11em;
-    width: 0.6em;
-    background-color: #F05B5C;
-    border-radius: 1em;
-    margin:0px 15px 0px 540px;
-    align-self: center;
-}
 
 .cover .roleTools{
     padding-left:10px;
     text-align: left;
     align-self: center;
-    margin-right:180px;
-    
+    margin-right:180px;   
 }
 
 .roleTools p.category{
     line-height: 16px;
     font-size:12px; 
-    margin:0px 0px 0px 0px;
-    
+    margin:0px 0px 0px 0px;  
 }
 
 
@@ -794,26 +784,52 @@ ul.pagination li a:hover{
 }
 
 .cover .empty{
-    flex-basis: 40%;   
+    flex-basis: 40%; 
+    font  
 }
 
 /* end hero */
 
 /* start nav in-page */
 .in-page{
-    display:block;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 500px;
+    left:-30px;
+    z-index: 9;
 }
+
 .in-page ul{
+    position:absolute;
     list-style: none;
     font-family: "Quicksand";
     font-weight: 400;
 }
+
+.in-page ul li{
+    border: 1px solid #F05B5C;
+    margin-bottom:10px;
+    scroll-behavior: smooth;
+    text-anchor: start;
+}
+
+.in-page ul li:active{
+    background-color: #F05B5C;
+}
+
+.in-page ul li:hover{
+    background-color: #F05B5C;
+}
+
+/* 
 @media (min-height: 300px) {
     nav.in-page ul {
+        
       position: sticky;
       top: 0;
+
     }
-  }
+  } */
 /* end nav in-page */
 
 /* start research section */
@@ -861,6 +877,7 @@ ul.pagination li a:hover{
     border-radius: 1em;
     height: 1em;
     width: 1em;
+    margin-top: 10px;
     margin-right: 10px;
 }
 
@@ -911,13 +928,52 @@ width: 40%;
     font-weight: 200;
     line-height: 1.8em;
 }
-  
-
 
 .project-define{
     display: block;
-    padding: 50px;
+    padding: 50px;    
 }
+
+.fullwidth-img{
+    flex-direction: column;
+}
+
+.txt-inline{
+    display: flex;
+    align-items: center;
+}
+
+.txt-line h4{
+    flex-basis: 50%;
+}
+
+.txt-line p{
+    flex-basis: 60%; 
+}
+
+.fullwidth-img img{
+
+    
+}
+
+.row .txt{
+   
+    padding: 20px 100px;
+
+}
+
+.row .txt h4{
+    font-size: 20px;
+
+}
+
+.row .txt p{
+    font-size: 20px;
+    text-align: Left;
+
+}
+
+
 
 
 

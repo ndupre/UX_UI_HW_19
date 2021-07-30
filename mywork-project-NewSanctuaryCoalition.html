@@ -42,7 +42,28 @@
             </ul>
         </div>
         <!-- End Header -->
-    </header>   
+    </header> 
+    <!-- Start inpage nav-->
+    <nav class="in-page">
+                <ul>
+                     <li> 
+                         <a href="#project-research" scr="./images/Research.svg">Empathise</a>
+                     </li>
+                     <li> 
+                         <a href="#project-ideation">Ideation</a>
+                     </li>
+                     <li> 
+                         <a href="#project-definition">Definition</a>
+                     </li>
+                     <li> 
+                         <a href="#project-prototyping">Prototyping</a>
+                     </li>
+                     <li> 
+                         <a href="#project-testings">Testing</a>
+                     </li>
+                 </ul>
+    </nav>
+    <!-- End inpage nav-->  
         
     <main class="wrapper">
         <!-- Start Hero -->
@@ -55,7 +76,7 @@
         <section class="hero project-hero">
             <div class="cover">
                 <div class="hero-text project-title">
-                    <h4>NOP Website Redesign</h4>
+                    <h4>NPO Website Redesign</h4>
                 <h1>New Sanctuary Coalition</h1> 
                 <p> New Sanctuary Coalition fights deportation while increasing the visibility of immigration detention. The goal of the projects is to redesign the website by <strong>improving the organization of the content and the hierarchy of each page</strong>, providing the necesary information for people to get involved in the cause by volunteering, donating and sharing information.</p>
                 </div>
@@ -64,20 +85,6 @@
                     <img src="./images/NSC-home.png">
                 </figure>
             </div>
-        
-            <!-- <div class="cover">
-                <div class="line-vertical"></div>
-                <div class="roleTools">
-                    <p class="category"><strong>ROLE</strong></p>
-                    <p class="category">Ux Researcher, UX designers, UI Designer.</p><br>
-                    <p class="category"><strong>TOOLS</strong></p>
-                    <p class="category">
-                    Miro, Figma, Adobe XD, Otter, Excel, Photoshop, Google Slides, Pen and paper.</p><br>
-                    </span>
-                    <p class="category"><strong>TIMELINE & SCOPE</strong></p> 
-                    <p class="category">3 week long sprints to design the home page, Volunteer Sign Up and Donations flow</p>
-                </div>
-            </div> -->
 
             <div class="cover">
                 <div class="empty"></div>
@@ -100,28 +107,7 @@
         </section>
         <!-- End Hero -->
 
-        
-        <!-- Start inpage nav-->
-        <nav class="in-page">
-           <ul>
-                <li> 
-                    <a href="#project-research">Research</a>
-                </li>
-                <li> 
-                    <a href="#project-ideation">Ideation</a>
-                </li>
-                <li> 
-                    <a href="#project-definition">Definition</a>
-                </li>
-                <li> 
-                    <a href="#project-prototyping">Prototyping</a>
-                </li>
-                <li> 
-                    <a href="#project-testings">Testing</a>
-                </li>
-            </ul>
-        </nav>
-        <!-- End inpage nav-->
+
         
         <!-- Start research section -->
         <Section class="project-empathise" id="project-research">
@@ -200,21 +186,20 @@
                 </div>
             </div>
            
-            <div class="row fullwidth">
-                <div class="full-width image">
-                    <h4>Affinity Diagram</h4>
-                    
-                    <img src="../Affinity Diagram .jpg" alt="">
-                    <p class="category">From the data colected during interviews and trough our survey, we were able to narrow down our direction to focusing on evolving/updating volunteer opportunities and donation preferences. 
-                    </p>
-                </div>
+            <div class="row fullwidth-img">
+                    <div class="txt-inline">
+                        <h4>Affinity Diagram</h4>
+                        <p class="category">From the data colected during interviews and trough our survey, we were able to narrow down our direction to focusing on evolving/updating volunteer opportunities and donation preferences. 
+                        </p>
+                    </div>
+                    <img src="./images/Affinity Diagram.jpg" alt="">
             </div>
             
-            <div class="row">
-                <div class="full-width image">
+            <div class="row row fullwidth-img">
+                <div class="txt-inline">
                     <h4>User Persona</h4>
-                    <img src="../images/NSCUser-Persona.png" alt="">
                 </div>
+                <img src="./images/NSCUser-Persona.png" alt="">
             </div>
             
             <div class="row">
@@ -248,7 +233,11 @@
             
             <div class="row">
                 <div class="full-width image">
-                    <h4>I like, I wish, What if</h4>
+                    <div class="txt-inline">
+                        <h4>I like, I wish, What if</h4>
+                        <p class="category">From the data colected during interviews and trough our survey, we were able to narrow down our direction to focusing on evolving/updating volunteer opportunities and donation preferences. 
+                        </p>
+                    </div>
                     <img src="../NSC-likewishwhatif.jpg" alt="">
                 </div>
             </div>
@@ -260,7 +249,7 @@
                     After taking in consideration time constraints and access to the organization, we decided to focus in the first two, leaving out the “Get Support” section as it would imply working directly with people affected with this issue and we would like to take more time to prepare.
                         </p>
                     <figure> 
-                       <img src="">
+                       <img src="../UX_UI_HW_19/images/">
                     </figure>
                 </div>
             </div>
@@ -269,24 +258,40 @@
         <!-- End ideation section -->
 
         <!-- Start prototyping section -->
-        <Section id="project-prototyping">
-            <figure class="index-method">
-                <img src="./images/Prototyping.svg" alt="red circle with icon of research"/>
-            </figure>
-            <h3>Prototyping</h3>
-            <p class="project-content">To start we designed a research plan and interviewed 6 user with the goal to identify how people get involved and in what capacity, what are their motivations, needs and painpoint. Discovering that users need to feel the organization is trustworthy indicating transparency of fundings, donnors and their work structure as main factors to decide to invest time or money in the cause.</p>
-            <h3 class="quote"></h3>
+        <Section  class="project-prototyping" id="project-prototyping">
+            <div class="section-intro">
+                <figure class="index-method">
+                    <img src="./images/Prototyping.svg" alt="red circle with icon of research"/>
+                </figure>
+                <h3>Prototyping</h3>
+                <div class="intro-txt">
+                    <p>Lorem impsum dolor</p>
+                </div> 
+                <div class="division">
+                    <div class="dot"></div> 
+                    <div class="dot"></div>  
+                    <div class="dot"></div>  
+                </div>
+            </div>
         </Section>
             <!-- End prototyping  section -->
 
         <!-- Start testing section -->
-        <Section id="project-testing">
-            <figure class="index-method">
-                <img src="./images/testing.svg" alt="red circle with icon of research"/>
-            </figure>
-            <h3>Testing</h3>
-            <p class="project-content">To start we designed a research plan and interviewed 6 user with the goal to identify how people get involved and in what capacity, what are their motivations, needs and painpoint. Discovering that users need to feel the organization is trustworthy indicating transparency of fundings, donnors and their work structure as main factors to decide to invest time or money in the cause.</p>
-            <h3 class="quote"></h3>
+        <Section class="project-testing" id="project-testing">
+            <div class="section-intro">
+                <figure class="index-method">
+                    <img src="./images/Research.svg" alt="red circle with icon of research"/>
+                </figure>
+                <h3>Testing</h3>
+                <div class="intro-txt">
+                    <p>Lorem impsum dolor</p>
+                </div> 
+                <div class="division">
+                    <div class="dot"></div> 
+                    <div class="dot"></div>  
+                    <div class="dot"></div>  
+                </div>
+            </div>
         </Section>
         <!-- End testing section -->
     </main> 
