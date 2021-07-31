@@ -987,10 +987,15 @@ width: 40%;
 
 }
 
+.row .txt h4{
+    text-align: center;
+
+}
+
 
 .row .txt p{
     font-size: 28px;
-    text-align: Left;
+    text-align: center;
     color: #383838;
 
 }
