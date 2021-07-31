@@ -842,6 +842,7 @@ ul.pagination li a:hover{
     border-radius: 30px;
 }
 
+/* intro section */
 .section-intro{
     margin-bottom: 50px;
     display: flex;
@@ -880,6 +881,10 @@ ul.pagination li a:hover{
     margin-top: 10px;
     margin-right: 10px;
 }
+
+/* end intro section */
+
+/* quote stile*/
 
 .project-empathise .user-research{
     margin: 25px 0px;
@@ -929,49 +934,68 @@ width: 40%;
     line-height: 1.8em;
 }
 
+/* end quote style*/
+
+
+
 .project-define{
     display: block;
     padding: 50px;    
 }
 
+/* img fullwidth style*/
+
 .fullwidth-img{
     flex-direction: column;
 }
 
-.txt-inline{
-    display: flex;
-    align-items: center;
+.txt-line{
+    display: flex; 
+    justify-content: flex-end;
+    width: 100%;
+     
 }
 
-.txt-line h4{
-    flex-basis: 50%;
+.txt-line .left{
+    flex-basis: 60%;
+    align-self: flex-start; 
+    margin: 0px 20px 20px 0px;
+
+}
+
+.fullwidth-img h4{
+    margin: 0px 0px 15px 20px;
 }
 
 .txt-line p{
-    flex-basis: 60%; 
+    margin-top: 1.2em;
 }
 
 .fullwidth-img img{
-
-    
+    margin-top: 0px;
+   
 }
+
+/* txt fullwidth style*/
 
 .row .txt{
    
     padding: 20px 100px;
+    border-top: 8px solid #ffffff;
+    border-radius:  4px;
+    border-width: content;
 
 }
 
-.row .txt h4{
-    font-size: 20px;
-
-}
 
 .row .txt p{
-    font-size: 20px;
+    font-size: 28px;
     text-align: Left;
+    color: #383838;
 
 }
+
+/* End txt fullwidth style*/
 
 
 
