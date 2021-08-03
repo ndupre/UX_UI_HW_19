@@ -1017,7 +1017,10 @@ width: 40%;
 
 
 .full-width-txt p{
-    font-size: 26px;
+    font-size: 24px;
+    line-height: 1.5em;
+    font-weight: 100;
+    font-style: italic;
     text-align:center;
     color: #383838;
 
