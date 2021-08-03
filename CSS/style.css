@@ -838,8 +838,9 @@ ul.pagination li a:hover{
     display: block;
     background-color: #fcf6f4;
     background-blend-mode: overlay;
-    padding: 50px;
+    padding: 30px 50px 0px 50px;
     border-radius: 30px;
+    margin-bottom: 25px; 
 }
 
 /* intro section */
@@ -869,7 +870,7 @@ ul.pagination li a:hover{
 .division{
     align-self: center;
     display: inline-flex;
-    margin: 0px 70px 50px 70px;
+    margin: 0px 70px 30px 70px;
     align-items: center ;
 }
 
@@ -886,14 +887,16 @@ ul.pagination li a:hover{
 
 /* quote stile*/
 
-.project-empathise .user-research{
+
+.project-empathise .thwothird{
     margin: 25px 0px;
 }
 
 .row{
     display: flex;
     align-content: center;
-    margin:50px; 
+    margin:50px;
+    padding: 25px; 
 }
 
 .quote{
@@ -940,7 +943,11 @@ width: 40%;
 
 .project-define{
     display: block;
-    padding: 50px;    
+    background-color: #fcf6f4;
+    background-blend-mode: overlay;
+    padding: 30px 50px 0px 50px;
+    border-radius: 30px;
+    margin-bottom: 25px;    
 }
 
 /* img fullwidth style*/
@@ -959,7 +966,7 @@ width: 40%;
 .txt-line .left{
     flex-basis: 50%;
     align-self: flex-start; 
-    margin: 0px 20px 30px 0px;
+    margin: 10px 20px 30px 0px;
     /* border-left: 2px solid #ffffff; */
 
 }
@@ -990,48 +997,106 @@ width: 40%;
     border-radius: 10px;
 } */
 
-.row .txt{
-   
-    padding: 20px 40px;
-
+.full-width{
+    margin-top: 0px;
+    margin-bottom: 50px;
+    
 }
 
-.row .txt h4{
+.full-width-txt{
+    margin: 0px;
+}
+
+
+
+.full-width-txt h4{
     text-align:center;
     color: #383838;
 
 }
 
 
-.row .txt p{
+.full-width-txt p{
     font-size: 26px;
-    text-align:left;
+    text-align:center;
     color: #383838;
 
+}
+.division-line-dot{
+    align-self: center;
+    display: inline-flex;
+    margin: 0px 0px 30px 0px;
+    align-items: center ;
+
+}
+
+.line{
+    height: 0.4em;
+    width: 450px;
+    background-color: #FCF0EC;
+    border-radius: 0.4em;
+    margin: 0px 10px;
+}
+
+.division-line-dot .dot{
+    margin: 0px 10px;
+    height: 0.7em;
+    width: 0.7em;
+    background-color: #FCF0EC;
+    border-radius: 0.7em;/
 }
 
 /* End txt fullwidth style*/
 
 .project-ideate{
-display: block;
-background-color: #fcf6f4;
-background-blend-mode: overlay;
-padding: 50px;
-border-radius: 30px;
+    display: block;
+    background-color: #fcf6f4;
+    background-blend-mode: overlay;
+    padding: 35px 50px 0px 50px;
+    border-radius: 30px;
+    margin-bottom: 25px;
 }
 
 .project-prototyping{
     display: block;
-    padding: 50px;
-   
+    background-color: #fcf6f4;
+    background-blend-mode: overlay;
+    padding: 35px 50px 25px 50px;
+    border-radius: 30px;
+    margin-bottom: 25px;
 }
+   
 .project-testing{
     display: block;
     background-color: #fcf6f4;
     background-blend-mode: overlay;
-    padding: 50px;
+    padding: 35px 50px 0px 50px;
     border-radius: 30px;
-    }
+    margin-bottom: 25px;
+}
+
+/* Prptotyping  */
+
+
+.threecolumn-img{
+    margin: 10px;
+    width: 33%;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.threecolumn-img img{
+    width:100%;
+
+}
+.onefour-txt{
+    padding-left: 50px;
+    margin:0px;
+    width: 50%;
+}
+
+
+
 
 
 
