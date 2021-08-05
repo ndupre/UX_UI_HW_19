@@ -785,40 +785,63 @@ ul.pagination li a:hover{
 
 .cover .empty{
     flex-basis: 40%; 
-    font  
 }
 
 /* end hero */
 
 /* start nav in-page */
-.in-page{
-    position: -webkit-sticky;
-    position: sticky;
-    top: 500px;
-    left:-30px;
-    z-index: 9;
+.in-page {
+    position: fixed;
+    top: calc(50vh - 75px);
+    left:-25px;
+    
 }
 
-.in-page ul{
+.in-page ul {
     position:absolute;
     list-style: none;
+}
+
+.in-page ul li {
+    margin-bottom: 15px;
+    border: 3px solid #F05B5C;
+    /* background-color:#0D87DB; */
+    width: 20px;
+    height: 20px;
+    text-indent: -9999px;
+    border-radius: 20px;
+}
+
+.in-page ul li a {
+    width: 20px;
+    height: 20px;
+    display: block;
+    border-radius: 20px;
     font-family: "Quicksand";
-    font-weight: 400;
+    font-weight: 600;
+    color:#121212;
+    text-decoration: none;
 }
 
-.in-page ul li{
-    border: 1px solid #F05B5C;
-    margin-bottom:10px;
-    scroll-behavior: smooth;
-    text-anchor: start;
-}
-
-.in-page ul li:active{
+.in-page ul li:hover,
+.in-page ul li.active {
     background-color: #F05B5C;
+    text-indent: 25px;
 }
 
-.in-page ul li:hover{
-    background-color: #F05B5C;
+.in-page ul li a.project-empathise{
+    background-image:url(../images/Research.svg);
+    opacity: 100%;
+}
+
+.in-page ul li a.project-empathise:hover{
+    background-image:url(../images/Research.svg);
+    opacity: 50%;
+}
+
+.in-page ul li a.project-empathise:active{
+    background-image:url(../images/Research.svg);
+    opacity: 0%;
 }
 
 /* 
