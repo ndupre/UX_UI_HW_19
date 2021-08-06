@@ -1106,7 +1106,7 @@ width: 40%;
 
 .threecolumn-img{
     margin: 10px;
-    width: 33%;
+    width: 50%;
     flex-direction: row;
     flex-wrap: wrap;
 }
@@ -1118,7 +1118,7 @@ width: 40%;
 .onefour-txt{
     padding-left: 50px;
     margin:0px;
-    width: 50%;
+    width: 30%;
 }
 
 
