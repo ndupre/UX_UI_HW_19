@@ -1103,22 +1103,43 @@ width: 40%;
 
 /* Prptotyping  */
 
-
-.threecolumn-img{
-    margin: 10px;
-    width: 50%;
+.project-prototyping .prototyping{
+    Display:flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content:space-between;
+    align-content: flex-start;
+
+}
+.threecolumn-img{
+    align-self: flex-start;
+    width:30%;
+    margin-bottom: 15px;
+   
+    
+    /* flex-wrap: wrap; */
 }
 
 .threecolumn-img img{
-    width:100%;
-
+    width: 100%;
 }
+
 .onefour-txt{
-    padding-left: 50px;
-    margin:0px;
+    width: 23%;  
+}
+
+.onethird-txt{
     width: 30%;
+}
+
+.onethird-txt ul{
+    font-family: "Open Sans";
+    font-size:14px;
+    color: #202020
+}
+
+.onethird-txt ul li{
+   margin-bottom: 15px;
 }
 
 
