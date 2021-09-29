@@ -1115,9 +1115,6 @@ width: 40%;
     align-self: flex-start;
     width:30%;
     margin-bottom: 15px;
-   
-    
-    /* flex-wrap: wrap; */
 }
 
 .threecolumn-img img{
@@ -1125,21 +1122,43 @@ width: 40%;
 }
 
 .onefour-txt{
-    width: 23%;  
+    width: 60%; 
+    margin-left: 5%;
+    margin-top: 0px; 
+}
+.onefour-txt h4{
+margin-bottom: 0px;
 }
 
-.onethird-txt{
-    width: 30%;
+
+/* Test Section 3 collumn text */
+.test{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.test .onethird-txt{
+    flex-basis: 30%;
+    margin-bottom: 30px;   
 }
 
 .onethird-txt ul{
     font-family: "Open Sans";
     font-size:14px;
-    color: #202020
+    color: #202020;
+    margin:10px;
+    list-style-type: none;
+    padding:0px;    
+    margin: 0px;    
 }
 
 .onethird-txt ul li{
    margin-bottom: 15px;
+   list-style-type: circle;
+
+   
 }
 
 
