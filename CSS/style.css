@@ -1030,14 +1030,10 @@ width: 40%;
     margin: 0px;
 }
 
-
-
 .full-width-txt h4{
     text-align:center;
     color: #383838;
-
 }
-
 
 .full-width-txt p{
     font-size: 24px;
@@ -1156,10 +1152,30 @@ margin-bottom: 0px;
 
 .onethird-txt ul li{
    margin-bottom: 15px;
-   list-style-type: circle;
-
-   
+   list-style-type: circle;  
 }
+
+.contact-me{
+    margin-bottom: 50px;
+    width: 80%;
+}
+
+.contact-me a{
+    font-family: "Quicksand";
+    font-size: 24px; 
+    font-weight: 500;
+    color:#0D87DB;
+    text-decoration: none;
+    display: inline;
+
+}
+
+.contact-me a:hover{
+    color:#F05B5C;
+}
+
+
+
 
 
 
