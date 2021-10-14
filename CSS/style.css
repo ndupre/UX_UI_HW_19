@@ -1174,7 +1174,22 @@ margin-bottom: 0px;
     color:#F05B5C;
 }
 
+/* Test Section 3 collumn text */
+/* hero about page */
 
+.about .full-width{
+    display: block;
+    text-align: center;
+}
+
+.contact{
+    display: block;
+    background-color: #fcf6f4;
+    background-blend-mode: overlay;
+    padding: 30px 50px 30px 50px;
+    border-radius: 30px;
+    margin-bottom: 25px; 
+}
 
 
 
