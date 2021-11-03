@@ -22,6 +22,10 @@ h1{
     margin: 0;
 }
 
+h1.black{ 
+    color: #121212;
+}
+
 h2{
     font-family: "Quicksand";
     font-size:48px; 
@@ -319,6 +323,7 @@ p{
     background-position: left center;
     padding-left: 24px;
     margin-left: 10px;
+    margin-right: 10px;
     background-size: 50px;
     transition: all 0.3s ease;  
     text-decoration: none;
@@ -1155,9 +1160,24 @@ margin-bottom: 0px;
    list-style-type: circle;  
 }
 
+.contact{
+    display: block;
+    background-color: #fcf6f4;
+    background-blend-mode: overlay;
+    padding: 30px 50px 30px 50px;
+    border-radius: 30px;
+    margin-bottom: 25px; 
+}
+
 .contact-me{
     margin-bottom: 50px;
-    width: 80%;
+    margin-top: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+.contact-me h4{
+    display: inline;
 }
 
 .contact-me a{
@@ -1166,7 +1186,8 @@ margin-bottom: 0px;
     font-weight: 500;
     color:#0D87DB;
     text-decoration: none;
-    display: inline;
+    text-align: center;
+    display: inline-block;
 
 }
 
@@ -1182,14 +1203,7 @@ margin-bottom: 0px;
     text-align: center;
 }
 
-.contact{
-    display: block;
-    background-color: #fcf6f4;
-    background-blend-mode: overlay;
-    padding: 30px 50px 30px 50px;
-    border-radius: 30px;
-    margin-bottom: 25px; 
-}
+
 
 
 
