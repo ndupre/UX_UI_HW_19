@@ -58,7 +58,16 @@ h4{
     font-family: "Quicksand";
     font-size:24px; 
     font-weight: 500;
-    color: #121212;  
+    color: #121212;
+    line-height: 30px;  
+}
+
+h5{
+    font-family: "Quicksand";
+    font-size:20px; 
+    font-weight:400;
+    color: #121212; 
+
 }
 
 @media screen and (max-width: 860px) {
@@ -348,6 +357,32 @@ p{
 }
 
 .hero-text p.category a.social-mail{
+    background-image:url(../images/icon-mail.svg);
+}
+
+/* Hero about  */
+.hero .row h5 a{
+    color:#0D87DB;
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 24px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-size: 50px;
+    transition: all 0.3s ease;  
+    text-decoration: none;
+    display:inline-block;
+    width: 50px;
+    height: 50px;
+    text-indent: -999999px;
+    line-height: 50px;
+}
+}
+.hero .row h5 a.social-linkedin{
+    background-image:url(../images/icon-linkedin.svg);
+} 
+
+.hero .row h5 a.social-mail{
     background-image:url(../images/icon-mail.svg);
 }
 
@@ -826,6 +861,7 @@ ul.pagination li a:hover{
     font-weight: 600;
     color:#121212;
     text-decoration: none;
+    line-height: 15px;
 }
 
 .in-page ul li:hover,
@@ -1027,7 +1063,7 @@ width: 40%;
 
 .full-width{
     margin-top: 0px;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
     
 }
 
