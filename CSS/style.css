@@ -306,20 +306,13 @@ p.category{
     display:inline;
     font-weight: 500;
 }
-.hero-text p.category a {
+.hero-text p.category a{
     color:#0D87DB;
-    background-repeat: no-repeat;
-    background-position: left center;
-    padding-left: 24px;
-    margin-left: 10px;
-    margin-right: 10px;
-    background-size: 50px;
     transition: all 0.3s ease;  
     text-decoration: none;
     display:inline-block;
-    width: 50px;
-    height: 50px;
-    text-indent: -99999px;
+    font-weight: 500;
+
 }
 
 .hero-text p.category a:hover{
@@ -479,38 +472,35 @@ p.category{
 /* Project Section */
 
 .projects{
-        padding: 50px 0;
+        padding: 50px 0px;
 }
+
+@media screen and (max-width: 860px) {
+    .projects{
+        padding:0px;
+    }
+}
+
 
 .projects .section-title{
     text-align:center;
+    
 }
 
 .project{
     display: flex;
     padding: 50px;
     align-items: center;
-    justify-content: space-between;
     margin-bottom: 50px;
 }
 
-@media screen and (max-width: 860px) {
-    .project{
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-}
 
 .project-img{
-    flex-basis: 50%;
-    margin:0px;
+    flex-basis: 45%;
 }
 
-@media screen and (max-width: 860px) {
-    .project-img{
-        flex-basis: 100%;
-        margin:0px auto 30px auto;
-    }
+.project-img img{
+    margin:0px;
 }
 
 .project-img img{
@@ -522,13 +512,6 @@ p.category{
     flex-basis: 45%;
 }
 
-@media screen and (max-width: 860px) {
-    .project-text{
-        flex-basis: 100%;
-        max-width: 400px;
-        text-align: center;
-    }
-}
 
 .project-text a.arrow{
     font-size: 1.8rem;
@@ -548,7 +531,7 @@ p.category{
     background-image: url(../images/arrow-right-red.svg);
 }
  
-.project:nth-of-type(odd){
+/*.project:nth-of-type(odd){
 }
 
 .project:nth-of-type(even){
@@ -559,22 +542,43 @@ p.category{
     flex-basis: 45%;
 }
 
-@media screen and (max-width: 860px) {
-    .project:nth-of-type(even) .project-img{
-        flex-basis: 100%;
-    }
-}
-
 .project:nth-of-type(even) .project-text{
     text-align: right;
     flex-basis: 50%;
 }
+*/
 
 @media screen and (max-width: 860px) {
+    .project{
+        flex-wrap: wrap;
+        justify-content: center;
+        padding:0px;
+    }
+
+    .project p.category{
+        display:none;
+    }
+
+    .project-img{
+        flex-basis: 100%;
+    }
+
+    .project-text{
+        flex-basis: 100%;
+        max-width: 400px;
+        text-align: center;
+    }
+
+    /*
+
+    .project:nth-of-type(even) .project-img{
+        flex-basis: 100%;
+    }
+
     .project:nth-of-type(even) .project-text{
         flex-basis: 100%;
         text-align: center;
-    }
+    }*/
 }
 
 /* Footer*/
@@ -632,16 +636,7 @@ footer a.footer-linkedin{
     background-size: 50px;
     background-repeat: no-repeat;
     background-image: url(../images/icon-linkedin.svg);
-    margin-left: 15px;
-}
-
-footer a.footer-dribbble{
-    display: block;
-    width: 50px;
-    height: 50px;
-    background-size: 50px;
-    background-repeat: no-repeat;
-    background-image: url(../images/icon-dribbble.svg);
+    margin-left: 20px;
 }
 
 footer a.footer-email{
@@ -651,6 +646,7 @@ footer a.footer-email{
     background-size: 50px;
     background-repeat: no-repeat;
     background-image: url(../images/icon-mail.svg);
+    margin-left: 20px;
 }
 
 a.contact{ 
@@ -755,7 +751,7 @@ ul.pagination li a:hover{
     align-self: right;
 }
 
-.project-img img{
+.hero .project-img img{
     width: 100%;
     height: auto;
     margin-left: 25px;
@@ -1169,7 +1165,7 @@ width: 40%;
     height: 0.7em;
     width: 0.7em;
     background-color: #FCF0EC;
-    border-radius: 0.7em;/
+    border-radius: 0.7em;
 }
 
 /* End txt fullwidth style*/
@@ -1201,7 +1197,7 @@ width: 40%;
     margin-bottom: 25px;
 }
 
-/* Prptotyping  */
+/* Prototyping  */
 
 .project-prototyping .prototyping{
     Display:flex;
@@ -1213,7 +1209,8 @@ width: 40%;
 }
 .threecolumn-img{
     align-self: flex-start;
-    width:20%;
+    flex-wrap: wrap;
+    width:30%;
     margin-bottom: 15px;
 }
 
@@ -1308,6 +1305,15 @@ margin-bottom: 0px;
 .about .full-width{
     display: block;
     text-align: center;
+}
+
+.about img{
+    border: solid 20px #fff;
+    
+}
+
+.about-txt{
+    display: 100%;
 }
 
 
