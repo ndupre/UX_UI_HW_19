@@ -19,10 +19,10 @@ body{
 
 h1{ 
     font-family: "Quicksand";
-    font-size: 3.375rem;
+    font-size: 4.5rem;
     color: #F05B5C;  
-    font-weight: 600;
-    line-height: 4.2rem;
+    font-weight: 500;
+    line-height: 5.5rem;
     margin: 0;
 }
 
@@ -32,80 +32,55 @@ h1.black{
 
 h2{
     font-family: "Quicksand";
-    font-size:3rem; 
-    font-weight: 600;
+    font-size:3.75rem; 
+    font-weight: 500;
     color: #121212;
-    line-height: 4rem;
+    line-height: 4.75rem;
     margin: 0;
 }
 
-@media screen and (max-width: 860px) {
-    h2{
-        font-size: 2.25rem;
-    }
-}
 
 h3{
     font-family: "Quicksand";
-    font-size:2.5rem; 
+    font-size:3.25rem; 
     font-weight: 500;
     color: #121212;
 }
 
-@media screen and (max-width: 860px) {
-    h3{
-        font-size: 2rem;
-    }
-}
 
 h4{
     font-family: "Quicksand";
-    font-size:2rem; 
+    font-size:2.75rem; 
     font-weight: 500;
     color: #121212;
-    line-height: 30px;  
+    line-height: 3.75rem;  
 }
-@media screen and (max-width: 860px) {
-    .hero h4{
-        font-size: 1.8rem;
-    }
-}
+
 
 h5{
     font-family: "Quicksand";
-    font-size:1.8rem; 
-    font-weight:400;
+    font-size:2.25rem; 
+    font-weight:300;
     color: #121212; 
 
-}
-@media screen and (max-width: 860px) {
-    .hero h5{
-        font-size: 1.25rem;
-        font-weight: 500;
-    }
 }
 
 
 p{
     font-family:"Open Sans";
-    font-size: 1.25rem;
+    font-size: 1.8rem;
     font-weight:300;
-    color: #121212; 
-    line-height: 2.5rem;  
+    color: #2b2b2b; 
+    line-height: 2.8rem;  
 }
 
 
 p.category{
-    font-size: 1em;
+    font-size: 1.5rem;
     color: #202020;
     line-height: 2.3rem;
 }
 
-@media screen and (max-width: 860px) {
-    .category{
-        font-size: 1rem;
-    }
-}
 
 /* Header */
 #menu{
@@ -402,8 +377,6 @@ p.category{
     }
 
     .hero .hero-text h1{
-        font-size: 2.65rem;
-        line-height: 3.5rem;
         text-align: center;
     }
 
@@ -503,7 +476,7 @@ p.category{
 }
 
 
-/* Project Section */a
+/* Project Section */
 
 .projects{
         padding: 50px 0;
@@ -767,7 +740,7 @@ ul.pagination li a:hover{
 
 .project-hero{
     display: block;
-    padding: 10px 50px 30px 50px;
+    padding: 10px 70px 30px 70px;
 }
 
 .project-hero .cover{
@@ -951,8 +924,6 @@ ul.pagination li a:hover{
     margin-bottom: 25px; 
 }
 
-
-
 /* intro section */
 .section-intro{
     margin-bottom: 50px;
@@ -974,7 +945,6 @@ ul.pagination li a:hover{
 }
 .intro-txt p{
     text-align: center;
-
 }
 
 .division{
@@ -993,6 +963,19 @@ ul.pagination li a:hover{
     margin-right: 10px;
 }
 
+@media screen and (max-width: 860px) {
+    .intro-txt{
+        margin: 0px;
+    }
+
+    .division{
+        align-self: center;
+        display: inline-flex;
+        margin: 0px 70px 0px 70px;
+        align-items: center ;
+    }
+}
+
 /* end intro section */
 
 /* quote stile*/
@@ -1009,6 +992,7 @@ ul.pagination li a:hover{
     padding: 25px; 
 }
 
+
 .quote{
     margin-right: 50px;
     width: 60%;
@@ -1022,10 +1006,10 @@ ul.pagination li a:hover{
 
 h2.quote-txt{
     font-family: "Open Sans";
-    font-size: 2.875rem;
+    font-size: 3.5rem;
     font-weight: 200;
     font-style: italic;
-    line-height: 1.31em;
+    line-height: 4.5rem;
     color: #383838;
     margin-left: 35px;  
 }
@@ -1065,6 +1049,13 @@ width: 40%;
         width: 100%;
        
     }
+
+    .row{
+        display: flex;
+        align-content: center;
+        margin:0px;
+        padding: 25px; 
+    }
     
 
 }
@@ -1090,14 +1081,13 @@ width: 40%;
 
 .txt-line{
     display: flex; 
-    justify-content: flex-end;
+    justify-content: center;
     width: 100%;
      
 }
 
 .txt-line .left{
-    flex-basis: 50%;
-    align-self: flex-start; 
+    flex-basis: 90%;
     margin: 10px 20px 30px 0px;
     /* border-left: 2px solid #ffffff; */
 
@@ -1107,13 +1097,11 @@ width: 40%;
     .txt-line .left{
         flex-basis: 100%;
         align-self: center; 
-        margin: 20px;
+        margin: 0px;
         /* border-left: 2px solid #ffffff; */
     
     }
 }
-
-
 
 
 .fullwidth-img h4{
@@ -1125,9 +1113,7 @@ width: 40%;
 }
 
 .fullwidth-img img{
-    margin-top: 0px;
-    border-radius: 20px;
-   
+    margin-top: 0px;   
 }
 
 /* txt fullwidth style*/
