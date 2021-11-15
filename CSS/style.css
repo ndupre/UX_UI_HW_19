@@ -804,7 +804,7 @@ ul.pagination li a:hover{
 
 .spec .role p.category{
     margin:0px;
-    font-size: 0.65rem;
+    font-size: 1.1rem;
 }
 
 .cover .empty{
@@ -1243,7 +1243,7 @@ margin-bottom: 0px;
 
 }
 
-.test .onethird-txt{
+.onethird-txt {
     flex-basis: 28%;
     margin-bottom: 30px;   
 }
@@ -1261,6 +1261,7 @@ margin-bottom: 0px;
 .onethird-txt ul li{
    margin-bottom: 15px;
    list-style-type: circle;  
+   font-size: 1.3rem;
 }
 
 .contact{
