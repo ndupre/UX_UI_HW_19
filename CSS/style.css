@@ -614,9 +614,9 @@ footer .wrapper .brand {
     margin-right: 15px;
 }
 
-footer p{
-    font-size: 0.5rem;
-    line-height: 1.5rem;
+footer .brand p{
+    font-size: 1.5rem;
+    line-height: 2.3rem;
     text-align: right;
 }
 
