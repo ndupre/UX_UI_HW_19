@@ -582,14 +582,13 @@ p.category{
 }
 
 /* Footer*/
-/* Footer*/
-footer{
+footer {
     width: 100%;
     padding: 0 50px;
     box-sizing: border-box;
 }
 
-footer .wrapper{
+footer .wrapper {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -597,13 +596,13 @@ footer .wrapper{
     max-width: 1200px;
 }
 
-footer .wrapper .footer-connect{
+footer .wrapper .footer-connect {
     display: inline-flex;
     flex-direction: row; 
     align-items: center;
 }
 
-footer .wrapper .brand{
+footer .wrapper .brand {
    align-items: center;
    display: inline-flex;
    flex-basis: auto;
