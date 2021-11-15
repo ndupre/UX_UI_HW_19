@@ -334,7 +334,7 @@ p.category{
 }
 
 /* Hero about  */
-.hero .row h5 a{
+.hero .row a{
     color:#0D87DB;
     background-repeat: no-repeat;
     background-position: left center;
@@ -351,14 +351,21 @@ p.category{
     line-height: 50px;
 }
 
-.hero .row h5 a.social-linkedin{
+.hero .row a.social-linkedin{
     background-image:url(../images/icon-linkedin.svg);
 } 
 
-.hero .row h5 a.social-mail{
+.hero .row a.social-mail{
     background-image:url(../images/icon-mail.svg);
+    margin-left: 30px;
 }
 
+
+@media screen and (max-width: 720px) {
+    .hero.about .row p span {
+        display:block;
+    }
+}
 
 
 @media screen and (max-width: 860px) {
@@ -395,7 +402,9 @@ p.category{
         align-items: center;
     }
     
-
+    .hero.about .row p span {
+        display:block;
+    }
 
 }
 
@@ -582,14 +591,13 @@ p.category{
 }
 
 /* Footer*/
-/* Footer*/
-footer{
+footer {
     width: 100%;
     padding: 0 50px;
     box-sizing: border-box;
 }
 
-footer .wrapper{
+footer .wrapper {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -597,13 +605,13 @@ footer .wrapper{
     max-width: 1200px;
 }
 
-footer .wrapper .footer-connect{
+footer .wrapper .footer-connect {
     display: inline-flex;
     flex-direction: row; 
     align-items: center;
 }
 
-footer .wrapper .brand{
+footer .wrapper .brand {
    align-items: center;
    display: inline-flex;
    flex-basis: auto;
@@ -615,9 +623,9 @@ footer .wrapper .brand{
     margin-right: 15px;
 }
 
-footer p{
-    font-size: 0.5rem;
-    line-height: 1.5rem;
+footer .brand p{
+    font-size: 1.5rem;
+    line-height: 2.3rem;
     text-align: right;
 }
 
@@ -805,7 +813,7 @@ ul.pagination li a:hover{
 
 .spec .role p.category{
     margin:0px;
-    font-size: 0.65rem;
+    font-size: 1.1rem;
 }
 
 .cover .empty{
@@ -1244,7 +1252,7 @@ margin-bottom: 0px;
 
 }
 
-.test .onethird-txt{
+.onethird-txt {
     flex-basis: 28%;
     margin-bottom: 30px;   
 }
@@ -1262,6 +1270,7 @@ margin-bottom: 0px;
 .onethird-txt ul li{
    margin-bottom: 15px;
    list-style-type: circle;  
+   font-size: 1.3rem;
 }
 
 .contact{
