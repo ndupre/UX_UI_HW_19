@@ -304,10 +304,9 @@ p.category{
     background-color:#fcf6f4;
     border-radius: 1.5rem;
     padding: 2.5rem;
-
+    box-sizing: border-box;
 
 }
-
 
 .side-list p.strong{
     font-weight: 600 !important;
@@ -340,13 +339,18 @@ p.category{
     margin-top: 0;
 }
 
-.side-list .hero-image img{
-    margin: 0px;
-    width: 100%;
-    text-align: left;
-    border-radius: 1rem;
+.side-list .image {
+    margin: 0; /* Remove default margins */
+    padding-bottom:1rem;
 }
 
+.side-list .image img {
+    width: 100%;
+    height: auto;
+    border-radius: 1.5rem;
+    display: block;
+    object-fit: cover; /* Adjust as needed */
+}
 
 .hero-text p.category{ 
     color:#121212!important;
@@ -613,17 +617,18 @@ Margin-left:40px;
     align-items: center;
     justify-content: space-between;
     gap:2rem;
-    margin: 2rem;
+    margin: 5rem 2.5rem;
 }
 
 .project-img{
     flex-basis: 50%;
     height: auto;
+    margin:0;
 }
 
 
 .project-img img{
-    width: 100%;
+    width: 95%;
     height: auto;
 }
 
