@@ -1,10 +1,14 @@
 /* Body */
 html {
     font-size: 62.5%;
+    margin: 0;
+    padding: 0;
 }
 
 body{
     background-color: #FCF0EC;
+    margin: 0;
+    padding: 0;
 }
 
 *{
@@ -278,8 +282,15 @@ p.category{
 .hero{
     display: flex;
     justify-content: space-between;
-    align-items: top;
+    flex-direction: row;
     padding: 100px 40px;
+}
+
+@media screen and (max-width: 860px) {
+    .hero {
+        padding-top: 40px;
+        flex-direction: column-reverse;
+    }
 }
 
 
@@ -391,7 +402,7 @@ p.category{
     background-image:url(../images/icon-mail.svg);
 }
 
-.hero-text h4.intro{
+.hero-text h4.intro {
     font-weight: 400;
     margin-top: 18px;
     margin-bottom: 24px;
@@ -438,19 +449,26 @@ p.category{
 
 
 @media screen and (max-width: 860px) {
-    .hero{
-        flex-wrap: wrap;
-        justify-content: center;
-        padding: 60px 40px
-    }
+    /*.hero{*/
+    /*    flex-wrap: wrap;*/
+    /*    justify-content: center;*/
+    /*    padding: 60px 0;*/
+    /*}*/
 
     .hero .hero-text h1{
         text-align: center;
     }
 
+    .hero .hero-text h4 {
+        font-size: 2.4rem;
+        line-height: 3.54rem;
+    }
+    
     .hero .hero-image{
         order: 1;
         flex-basis: 60%;
+        max-width: 80%;
+        margin-bottom: 60px;
     }
 
     .hero-text p.category a{
@@ -474,81 +492,81 @@ p.category{
 
 
 .my-skills{
-    display: flex;
+    display: block;
     flex-wrap: wrap;
-    justify-content: space-aroundleft;
     padding: 40px 40px 20px 40px;
     background-color: white;
     border-radius:24px ;
     border:solid rgba(240,91,92, 0.15)
 }
 
-
 .my-skills  .title{
-    display:flex;
-    width: 100%;
-    align-items: center;
-    margin-bottom: 2rem;
+    display:block;
+    margin-bottom: 3rem;
 }
+
 .my-skills .division{
     align-self: center;
     display: flex;
     margin: 0px 6px 8px 0px;
 }
 
-@media screen and (max-width: 720px) {
-    .my-skills{
-        display: flex;
-        flex-wrap: wrap;        
-        justify-content: left;
-        text-align: left;
-    }
-}
-
 .my-skills h3{
     text-align: left;
     flex-basis: auto;
-    line-height: 0%;
+    line-height: 0;
 }
 
-
-.skill{
-    flex-basis: calc( (100%/4)); 
-    padding-bottom: 32px;
+.skill-flexy {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: inherit;
+    align-content: flex-start;
+    align-items: flex-start;
 }
 
-.skill .title{
+.skill-flexy .skill{
+    flex-basis: calc( (94%/4)); 
+    margin: 0 0 30px 16px;
+}
+
+.skill-flexy .skill .title-skill {
     display:flex;
     width: 100%;
     align-items: center;
     margin-bottom: 1rem;
 }
 
-@media screen and (max-width: 1024px) {
-    .skill{
-        flex-basis: calc( (100%/3) - 15px );
+@media screen and (max-width: 1180px) {
+    .skill-flexy .skill {
+        flex-basis: calc( (94%/3));
     }
 }
 
-@media screen and (max-width: 720px) {
-    .skill{
+@media screen and (max-width:910px) {
+    .skill-flexy .skill {
+        flex-basis: calc( (94%/2));
+    }
+}
+
+@media screen and (max-width:647px) {
+    .skill-flexy .skill {
         flex-basis: 100%;
-        margin-bottom: 30px;
-        max-width: 400px;
     }
 }
 
-.skill .title{
+.skill-flexy .skill .title-skill {
     display: flex;
     align-items: center; /* Aligns children vertically in the center */
 }
 
-.title .material-icons {
+.skill-flexy .skill .title-skill .material-icons {
     /* Optional: Add some right margin to the icon */
     margin-right: 10px;
 }
 
-.skill h5{ 
+.skill-flexy .skill h5{ 
     font-weight: 600 !important;
     margin: 0;
 }
@@ -588,11 +606,11 @@ p.category{
     padding: 40px 0px;
 }
 
-@media screen and (max-width: 860px) {
-    .projects{
-        padding:1rem;
-    }
-}
+/*@media screen and (max-width: 860px) {*/
+/*    .projects{*/
+/*        padding:1rem;*/
+/*    }*/
+/*}*/
 
 .projects .section-title{
     text-align:left;
@@ -600,7 +618,7 @@ p.category{
 }
 .projects .title{
 display: flex;
-width: 100%;
+width: 90%;
 align-items: center;
 margin-bottom: 2rem;
 Margin-left:40px;
@@ -640,22 +658,32 @@ Margin-left:40px;
 }
 
 
-.project-text a.arrow{
+.project-text a.arrow {
     font-size: 1.8rem;
     font-style: italic;
     font-weight: 500;
     color: #121212;
+
+    transition: color 0.3s ease; 
+}
+
+.project-text a.arrow .arrow-right {
     background-image: url(../images/arrow-right.svg);
     background-repeat: no-repeat;
     background-position: right center;
     padding-right: 26px;
-    transition: color 0.3s ease; 
+    transition: all 0.3s ease;
+
 }
 
-.project-text a.arrow:hover{
+.project-text  a.arrow:hover {
     color:#F05B5C;
     transition: color 0.3s ease;
+}
+
+.project-text a.arrow:hover .arrow-right {
     background-image: url(../images/arrow-right-red.svg);
+    
 }
  
 /*.project:nth-of-type(odd){
@@ -679,7 +707,7 @@ Margin-left:40px;
     .project{
         flex-wrap: wrap;
         justify-content: center;
-        padding:1rem;
+        /*padding:1rem;*/
         display: flex;
     }
 
